@@ -30,7 +30,7 @@ spec:
       containers:
       - name: my-app
         # This image tag is auto-updated by Harness CI on every build
-        image: arunedits/my-app:65
+        image: arunedits/my-app:66
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
