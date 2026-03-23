@@ -7,10 +7,10 @@ metadata:
     app: my-app
 spec:
   selector:
-    app: my-app       # Routes traffic to pods with this label
+    app: my-app       
   type: NodePort
   ports:
   - name: http
-    port: 80          # Service port inside the cluster
-    targetPort: 8080  # Port the Spring Boot app listens on
+    port: 80          
+    targetPort: 8080  
     nodePort: 30080   # External port on the EC2/Minikube node
